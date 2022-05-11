@@ -10,6 +10,7 @@
   <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="lineage" />
 
   <!-- External -->
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" revision="lineage-19.0"/>
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
