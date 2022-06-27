@@ -2,21 +2,21 @@
 <manifest>
 
   <remote  name="github"
-           fetch="ssh://git@github.com/" />
+           fetch="https://github.com/" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
   <remote  name="derp"
-           fetch="ssh://git@github.com/DerpFest-12"
+           fetch="https://github.com/DerpFest-12"
            revision="12.1" />
 
   <remote  name="derp-devices"
-           fetch="ssh://git@github.com/DerpFest-Devices"
+           fetch="https://github.com/DerpFest-Devices"
            revision="12" />
 
   <remote  name="aex"
-           fetch="ssh://git@github.com/aex-tmp"
+           fetch="https://github.com/aex-tmp"
            revision="refs/heads/12.x" />
 
   <!-- DerpFest -->
@@ -66,6 +66,7 @@
   <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk" remote="derp" />
   <project path="external/libcxx" name="external_libcxx" groups="pdk" remote="derp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="derp" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" groups="pdk" remote="derp" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="derp" />
   <project path="external/json-c" name="external_json-c" groups="pdk" remote="derp" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="derp" />
